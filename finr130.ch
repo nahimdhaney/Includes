@@ -1,264 +1,92 @@
-#ifdef SPANISH
-	#define STR0001 "Imprime la situac. de los titulos por cobrar referentes a la"
-	#define STR0002 "Fch. base del sist."
-	#define STR0003 "A Rayas"
-	#define STR0004 "Administrac."
-	#define STR0005 "Situac. de titulos por cobrar"
-	#define STR0006 "Codigo-Td-Nombre del Cliente      Prf-Numero        Tipo           Fecha de  Vto   Vto   Bco St  Valor Original|        Titulos  Vencidos          |Titulos a Vencer|    Num     |   Vlr.inter. o|Dias  |     Historial   |      "
-	#define STR0007 "                               Cuota             Modalidad      Emision  Titulo   Real                           |    Valor Actual    Valor Corregido|   Valor Actual |   Banco    |   Permanencia |Atraso|  Vencidos+Vencer|    "
-	#define STR0008 "Por Cliente"
-	#define STR0009 "Por Prefijo / Nº"
-	#define STR0010 "Por Banco"
-	#define STR0011 "Por Venc/Cli"
-	#define STR0012 "Por Modalid."
-	#define STR0013 "Por Emision"
-	#define STR0014 "Por Ven/Bco"
-	#define STR0015 "Por Cod Cli"
-	#define STR0016 "Bco / Situac."
-	#define STR0017 " - Por Cliente"
-	#define STR0018 " - Por Prefijo / Nº"
-	#define STR0019 " - Por Banco"
-	#define STR0020 " - Por Fch de Vencimiento"
-	#define STR0021 " - Por Modalid"
-	#define STR0022 "Seleccionando registros.."
-	#define STR0023 " - Por Vto / Banco"
-	#define STR0024 " - Por Cod Cliente"
-	#define STR0025 " - Por Banco y Situac."
-	#define STR0026 " - Analitico"
-	#define STR0027 " - Sintetico"
-	#define STR0028 "ANULADO POR EL OPERADOR"
-	#define STR0029 "Cartera"
-	#define STR0030 "Simple"
-	#define STR0031 "Descontada"
-	#define STR0032 "Garantizada"
-	#define STR0033 "Vinculada"
-	#define STR0034 "Abogado"
-	#define STR0035 "Judicial"
-	#define STR0036 "Gar. Desc"
-	#define STR0037 "S U B T O T A L   ----> "
-	#define STR0038 "T O T A L  G E N E R A L -> "
-	#define STR0039 "MOVIMIENTOS"
-	#define STR0040 "TITULO"
-	#define STR0041 "T O T A L   D E L  M E S -> "
-	#define STR0042 " - Por Emision"
-	#define STR0043 "T O T A L   S U C U R S A L"
-	#define STR0044 "                                                                                                                     |       Titulos Vencidos        |Titulos por Vencer|                 Vlr.intereses o       (Vencidos+Vencer)"
-	#define STR0045 "                                                                                                                     | Valor Nominal  Valor Corregido|  Valor Nominal |                  permanencia                        "
-	#define STR0046 "* indica titulo provisorio P Indica Saldo Parcial"
-	#define STR0047 "Por Nº / Prefijo"
-	#define STR0048 " - Nº / Prefijo"
-	#define STR0049 "Imprim los tipos"
-	#define STR0050 "No imprimir tipos"
-	#define STR0051 "¿Listar Deducciones?"
-	#define STR0052 "Si"
-	#define STR0053 "No"
-	#define STR0054 "Tda  - "
-	#define STR0055 " Sucurs - "
-	#define STR0056 "Cod-Td-Nombre del Cliente"
-	#define STR0057 "Prf-Numero"
-	#define STR0058 "Cuota"
-	#define STR0059 "TP"
-	#define STR0060 "Modalid."
-	#define STR0061 "De fch"
-	#define STR0062 "Emision"
-	#define STR0063 "Vencto"
-	#define STR0064 "Titulo"
-	#define STR0065 "Real"
-	#define STR0066 "Banco"
-	#define STR0067 "Valor Original"
-	#define STR0068 "Tit Vencidos"
-	#define STR0069 "Valor Actual"
-	#define STR0070 "Valor Corregido"
-	#define STR0071 "Titul por Vencer"
-	#define STR0072 "Nº"
-	#define STR0073 "Vlr. inter o"
-	#define STR0074 "permanencia"
-	#define STR0075 "Dias"
-	#define STR0076 "Atraso"
-	#define STR0077 "Historial"
-	#define STR0078 "(Vncdos+p/vencer)"
-	#define STR0079 "Titulos p/ cobrar"
-	#define STR0080 " en"
-	#define STR0081 "Totales"
-	#define STR0082 "T O T A L  E M P R E S A -->"
-	#define STR0083 "Bco St"
-	#define STR0084 "QUERY DE BUSQUEDA DE COMPENSACION"
-	#define STR0085 "BUSQUEDA de COMPENSACION"
-	#define STR0086 "Formato de impresion tabla no soportado en este informe."
-#else
-	#ifdef ENGLISH
-		#define STR0001 "It prints the status of receivable bills referring to the System`s"
-		#define STR0002 "base date."
-		#define STR0003 "Z.Form"
-		#define STR0004 "Management"
-		#define STR0005 "Status of Receivable Bills"
-		#define STR0006 "Code-Store-Customer Name        Prf-Number       Type      Due Date              Due Date   Bank  Original Value |       Overdue Bills             |Bills Due       |       Num     |Interest V. or|Days  | History     |      "
-		#define STR0007 "                               Installment      Nature    Issue      Bill       Actual                          |   Current Value Adjusted Value  |   Current Value|      Bank     |Custody     |Delay |Overdue+Due|    "
-		#define STR0008 "By Custom."
-		#define STR0009 "By Prefix/Number"
-		#define STR0010 "By Bank"
-		#define STR0011 "By D.Dt/Cus"
-		#define STR0012 "By Class"
-		#define STR0013 "By Issue"
-		#define STR0014 "By D.Dt/Bk"
-		#define STR0015 "By Cus.Cde."
-		#define STR0016 "Bank/Situation"
-		#define STR0017 " - By Custom."
-		#define STR0018 " - By Number"
-		#define STR0019 " - By Bank"
-		#define STR0020 " - By Due Date"
-		#define STR0021 " - By Nature"
-		#define STR0022 "Selecting Records..."
-		#define STR0023 " - By D.Date/Bank"
-		#define STR0024 " - By Custom.Code"
-		#define STR0025 " - By Bank and Situat."
-		#define STR0026 " - Detailed."
-		#define STR0027 " - Summariz."
-		#define STR0028 "CANCELLED BY THE OPERATOR"
-		#define STR0029 "Portfolio"
-		#define STR0030 "Simple"
-		#define STR0031 "Discounted"
-		#define STR0032 "Guaranteed"
-		#define STR0033 "Bonded"
-		#define STR0034 "Attorney"
-		#define STR0035 "Juridic"
-		#define STR0036 "Disc Guar"
-		#define STR0037 "S U B - T O T A L ----> "
-		#define STR0038 "G R A N D  T O T A L--> "
-		#define STR0039 "BILLS"
-		#define STR0040 "BILL"
-		#define STR0041 "M O N T H  T O T A L ---> "
-		#define STR0042 " - Per Issue"
-		#define STR0043 "T O T A L   B R A N C H --->"
-		#define STR0044 "                                                                                                                     |        Overdue Bills         | Outstanding Bills|         Interest Vl. or     (Overdue+Outstanding)"
-		#define STR0045 "                                                                                                                     |  Nominal value Adjusted Value |   Nominal value |         permanence                        "
-		#define STR0046 "* show temporary bill, P shows Partial Balance"
-		#define STR0047 "By Number/Prefix"
-		#define STR0048 " - Number/Prefix"
-		#define STR0049 "Print the types"
-		#define STR0050 "Do not print the types"
-		#define STR0051 "List Allowances?"
-		#define STR0052 "Yes"
-		#define STR0053 "No"
-		#define STR0054 "Store - "
-		#define STR0055 "Branch - "
-		#define STR0056 "Code-Str.-Customer name  "
-		#define STR0057 "Prf-Number"
-		#define STR0058 "Inst.  "
-		#define STR0059 "TP"
-		#define STR0060 "Class   "
-		#define STR0061 "From Dt"
-		#define STR0062 "issue  "
-		#define STR0063 "Due Dt"
-		#define STR0064 "Bill  "
-		#define STR0065 "Act."
-		#define STR0066 "Bank"
-		#define STR0067 "Original amnt."
-		#define STR0068 "OverdueBills"
-		#define STR0069 "Current amn"
-		#define STR0070 "indexec amount "
-		#define STR0071 "Bills to fall due"
-		#define STR0072 "Nbr"
-		#define STR0073 "Amnt.Int. or"
-		#define STR0074 " stay      "
-		#define STR0075 "Days"
-		#define STR0076 "Arrear"
-		#define STR0077 "History "
-		#define STR0078 "(Due+To ball due)"
-		#define STR0079 "Bills receivable "
-		#define STR0080 " on"
-		#define STR0081 "Totals"
-		#define STR0082 "C O M P A N Y  T O T A L -->"
-		#define STR0083 "St Bank"
-		#define STR0084 "CLEARANCE SEARCH QUERY"
-		#define STR0085 "CLEARANCE SEARCH"
-		#define STR0086 "Table printing format not supported in this report"
-	#else
-		#define STR0001 If( cPaisLoc $ "ANG|PTG", "Imprime a posição dos títulos a receber relativo a data ba-", "Imprime a posicao dos titulos a receber relativo a data ba-" )
-		#define STR0002 If( cPaisLoc $ "ANG|PTG", "Se do sistema.", "se do sistema." )
-		#define STR0003 If( cPaisLoc $ "ANG|PTG", "Código de barras", "Zebrado" )
-		#define STR0004 If( cPaisLoc $ "ANG|PTG", "Administração", "Administracao" )
-		#define STR0005 If( cPaisLoc $ "ANG|PTG", "Posição Dos Títulos A Receber", "Posicao dos Titulos a Receber" )
-		#define STR0006 "Codigo-Lj-Nome do Cliente      Prf-Numero        Tipo           Data de  Vencto   Vencto   Bco St  Valor Original|        Titulos  Vencidos          |Titulos a Vencer|    Num     |   Vlr.juros ou|Dias  |     Historico   |      "
-		#define STR0007 "                               Parcela           Natureza       Emissao  Titulo   Real                           |    Valor Atual    Valor Corrigido |   Valor Atual  |   Banco    |   Permanencia |Atraso|  Vencidos+Vencer|    "
-		#define STR0008 "Por Cliente"
-		#define STR0009 If( cPaisLoc $ "ANG|PTG", "Por Prefixo/número", "Por Prefixo/Numero" )
-		#define STR0010 "Por Banco"
-		#define STR0011 If( cPaisLoc $ "ANG|PTG", "Por Venc/cli", "Por Venc/Cli" )
-		#define STR0012 "Por Natureza"
-		#define STR0013 If( cPaisLoc $ "ANG|PTG", "Por Emissão", "Por Emissao" )
-		#define STR0014 If( cPaisLoc $ "ANG|PTG", "Por Ven/bco", "Por Ven/Bco" )
-		#define STR0015 If( cPaisLoc $ "ANG|PTG", "Por Cód.cli.", "Por Cod.Cli." )
-		#define STR0016 If( cPaisLoc $ "ANG|PTG", "Banco/situação", "Banco/Situacao" )
-		#define STR0017 " - Por Cliente"
-		#define STR0018 If( cPaisLoc $ "ANG|PTG", " - Por Prefixo/número", " - Por Prefixo/Numero" )
-		#define STR0019 " - Por Banco"
-		#define STR0020 If( cPaisLoc $ "ANG|PTG", " - Por Data De Vencimento", " - Por Data de Vencimento" )
-		#define STR0021 " - Por Natureza"
-		#define STR0022 If( cPaisLoc $ "ANG|PTG", "A Seleccionar Registos...", "Selecionando Registros..." )
-		#define STR0023 If( cPaisLoc $ "ANG|PTG", " - Por Vencto/banco", " - Por Vencto/Banco" )
-		#define STR0024 If( cPaisLoc $ "ANG|PTG", " - Por Cód.cliente", " - Por Cod.Cliente" )
-		#define STR0025 If( cPaisLoc $ "ANG|PTG", " - Por Banco E Situação", " - Por Banco e Situacao" )
-		#define STR0026 If( cPaisLoc $ "ANG|PTG", " - Analítico", " - Analitico" )
-		#define STR0027 If( cPaisLoc $ "ANG|PTG", " - Sintético", " - Sintetico" )
-		#define STR0028 If( cPaisLoc $ "ANG|PTG", "Cancelado Pelo Operador", "CANCELADO PELO OPERADOR" )
-		#define STR0029 "Carteira"
-		#define STR0030 "Simples"
-		#define STR0031 "Descontada"
-		#define STR0032 "Caucionada"
-		#define STR0033 "Vinculada"
-		#define STR0034 "Advogado"
-		#define STR0035 "Judicial"
-		#define STR0036 "Cauc Desc"
-		#define STR0037 If( cPaisLoc $ "ANG|PTG", "S u b - total ----> ", "S U B - T O T A L ----> " )
-		#define STR0038 If( cPaisLoc $ "ANG|PTG", "Total crial ----> ", "T O T A L   G E R A L ----> " )
-		#define STR0039 If( cPaisLoc $ "ANG|PTG", "Movimentos", "MOVIMENTACOES" )
-		#define STR0040 If( cPaisLoc $ "ANG|PTG", "Título", "TITULO" )
-		#define STR0041 If( cPaisLoc $ "ANG|PTG", "T o t a l   d o  m ê s ---> ", "T O T A L   D O  M E S ---> " )
-		#define STR0042 If( cPaisLoc $ "ANG|PTG", " - Por Emissão", " - Por Emissao" )
-		#define STR0043 If( cPaisLoc $ "ANG|PTG", "Total   f i l i a l --->", "T O T A L   F I L I A L --->" )
-		#define STR0044 "                                                                                                                     |       Titulos Vencidos        |Titulos a Vencer|                 Vlr.juros ou       (Vencidos+Vencer)"
-		#define STR0045 "                                                                                                                     | Valor Nominal  Valor Corrigido|  Valor Nominal |                  permanencia                        "
-		#define STR0046 If( cPaisLoc $ "ANG|PTG", "* Indica Título Provisório, P Indica Saldo Parcial", "* indica titulo provisorio, P Indica Saldo Parcial" )
-		#define STR0047 If( cPaisLoc $ "ANG|PTG", "Por Número/prefixo", "Por Numero/Prefixo" )
-		#define STR0048 If( cPaisLoc $ "ANG|PTG", " - Número/prefixo", " - Numero/Prefixo" )
-		#define STR0049 "Imprimir os tipos"
-		#define STR0050 If( cPaisLoc $ "ANG|PTG", "Não imprimir tipos", "Nao imprimir tipos" )
-		#define STR0051 "Listar Abatimentos?"
-		#define STR0052 "Sim"
-		#define STR0053 If( cPaisLoc $ "ANG|PTG", "Não", "Nao" )
-		#define STR0054 "Loja - "
-		#define STR0055 If( cPaisLoc $ "ANG|PTG", " filial - ", " Filial - " )
-		#define STR0056 If( cPaisLoc $ "ANG|PTG", "Código-lj-nome Do Cliente", "Codigo-Lj-Nome do Cliente" )
-		#define STR0057 If( cPaisLoc $ "ANG|PTG", "Prf-número", "Prf-Numero" )
-		#define STR0058 "Parcela"
-		#define STR0059 If( cPaisLoc $ "ANG|PTG", "Tp.", "TP" )
-		#define STR0060 "Natureza"
-		#define STR0061 If( cPaisLoc $ "ANG|PTG", "Da data", "Data de" )
-		#define STR0062 If( cPaisLoc $ "ANG|PTG", "Emissão", "Emissao" )
-		#define STR0063 "Vencto"
-		#define STR0064 If( cPaisLoc $ "ANG|PTG", "Título", "Titulo" )
-		#define STR0065 If( cPaisLoc $ "ANG|PTG", "Euro", "Real" )
-		#define STR0066 "Banco"
-		#define STR0067 "Valor Original"
-		#define STR0068 "Tit Vencidos"
-		#define STR0069 If( cPaisLoc $ "ANG|PTG", "Valor Actual", "Valor Atual " )
-		#define STR0070 "Valor Corrigido"
-		#define STR0071 If( cPaisLoc $ "ANG|PTG", "Títulos A Vencer", "Titulos a Vencer" )
-		#define STR0072 "Num"
-		#define STR0073 "Vlr.juros ou"
-		#define STR0074 If( cPaisLoc $ "ANG|PTG", "Permanência", "permanencia" )
-		#define STR0075 "Dias"
-		#define STR0076 "Atraso"
-		#define STR0077 If( cPaisLoc $ "ANG|PTG", "Histórico", "Historico" )
-		#define STR0078 If( cPaisLoc $ "ANG|PTG", "(vencidos+vencer)", "(Vencidos+Vencer)" )
-		#define STR0079 If( cPaisLoc $ "ANG|PTG", "Títulos a receber", "Titulos a receber" )
-		#define STR0080 " em"
-		#define STR0081 "Totais"
-		#define STR0082 "T O T A L  E M P R E S A -->"
-		#define STR0083 "Bco St"
-		#define STR0084 "QUERY DE PESQUISA DE COMPENSAÇÃO"
-		#define STR0085 "PESQUISA de COMPENSAÇÃO"
-		#define STR0086 "Formato de impressão tabela não suportado neste relatório"
-	#endif
-#endif
+#DEFINE STR0001 FWI18NLang("FINR130","STR0001",1)
+#DEFINE STR0002 FWI18NLang("FINR130","STR0002",2)
+#DEFINE STR0003 FWI18NLang("FINR130","STR0003",3)
+#DEFINE STR0004 FWI18NLang("FINR130","STR0004",4)
+#DEFINE STR0005 FWI18NLang("FINR130","STR0005",5)
+#DEFINE STR0006 FWI18NLang("FINR130","STR0006",6)
+#DEFINE STR0007 FWI18NLang("FINR130","STR0007",7)
+#DEFINE STR0008 FWI18NLang("FINR130","STR0008",8)
+#DEFINE STR0009 FWI18NLang("FINR130","STR0009",9)
+#DEFINE STR0010 FWI18NLang("FINR130","STR0010",10)
+#DEFINE STR0011 FWI18NLang("FINR130","STR0011",11)
+#DEFINE STR0012 FWI18NLang("FINR130","STR0012",12)
+#DEFINE STR0013 FWI18NLang("FINR130","STR0013",13)
+#DEFINE STR0014 FWI18NLang("FINR130","STR0014",14)
+#DEFINE STR0015 FWI18NLang("FINR130","STR0015",15)
+#DEFINE STR0016 FWI18NLang("FINR130","STR0016",16)
+#DEFINE STR0017 FWI18NLang("FINR130","STR0017",17)
+#DEFINE STR0018 FWI18NLang("FINR130","STR0018",18)
+#DEFINE STR0019 FWI18NLang("FINR130","STR0019",19)
+#DEFINE STR0020 FWI18NLang("FINR130","STR0020",20)
+#DEFINE STR0021 FWI18NLang("FINR130","STR0021",21)
+#DEFINE STR0022 FWI18NLang("FINR130","STR0022",22)
+#DEFINE STR0023 FWI18NLang("FINR130","STR0023",23)
+#DEFINE STR0024 FWI18NLang("FINR130","STR0024",24)
+#DEFINE STR0025 FWI18NLang("FINR130","STR0025",25)
+#DEFINE STR0026 FWI18NLang("FINR130","STR0026",26)
+#DEFINE STR0027 FWI18NLang("FINR130","STR0027",27)
+#DEFINE STR0028 FWI18NLang("FINR130","STR0028",28)
+#DEFINE STR0029 FWI18NLang("FINR130","STR0029",29)
+#DEFINE STR0030 FWI18NLang("FINR130","STR0030",30)
+#DEFINE STR0031 FWI18NLang("FINR130","STR0031",31)
+#DEFINE STR0032 FWI18NLang("FINR130","STR0032",32)
+#DEFINE STR0033 FWI18NLang("FINR130","STR0033",33)
+#DEFINE STR0034 FWI18NLang("FINR130","STR0034",34)
+#DEFINE STR0035 FWI18NLang("FINR130","STR0035",35)
+#DEFINE STR0036 FWI18NLang("FINR130","STR0036",36)
+#DEFINE STR0037 FWI18NLang("FINR130","STR0037",37)
+#DEFINE STR0038 FWI18NLang("FINR130","STR0038",38)
+#DEFINE STR0039 FWI18NLang("FINR130","STR0039",39)
+#DEFINE STR0040 FWI18NLang("FINR130","STR0040",40)
+#DEFINE STR0041 FWI18NLang("FINR130","STR0041",41)
+#DEFINE STR0042 FWI18NLang("FINR130","STR0042",42)
+#DEFINE STR0043 FWI18NLang("FINR130","STR0043",43)
+#DEFINE STR0044 FWI18NLang("FINR130","STR0044",44)
+#DEFINE STR0045 FWI18NLang("FINR130","STR0045",45)
+#DEFINE STR0046 FWI18NLang("FINR130","STR0046",46)
+#DEFINE STR0047 FWI18NLang("FINR130","STR0047",47)
+#DEFINE STR0048 FWI18NLang("FINR130","STR0048",48)
+#DEFINE STR0049 FWI18NLang("FINR130","STR0049",49)
+#DEFINE STR0050 FWI18NLang("FINR130","STR0050",50)
+#DEFINE STR0051 FWI18NLang("FINR130","STR0051",51)
+#DEFINE STR0052 FWI18NLang("FINR130","STR0052",52)
+#DEFINE STR0053 FWI18NLang("FINR130","STR0053",53)
+#DEFINE STR0054 FWI18NLang("FINR130","STR0054",54)
+#DEFINE STR0055 FWI18NLang("FINR130","STR0055",55)
+#DEFINE STR0056 FWI18NLang("FINR130","STR0056",56)
+#DEFINE STR0057 FWI18NLang("FINR130","STR0057",57)
+#DEFINE STR0058 FWI18NLang("FINR130","STR0058",58)
+#DEFINE STR0059 FWI18NLang("FINR130","STR0059",59)
+#DEFINE STR0060 FWI18NLang("FINR130","STR0060",60)
+#DEFINE STR0061 FWI18NLang("FINR130","STR0061",61)
+#DEFINE STR0062 FWI18NLang("FINR130","STR0062",62)
+#DEFINE STR0063 FWI18NLang("FINR130","STR0063",63)
+#DEFINE STR0064 FWI18NLang("FINR130","STR0064",64)
+#DEFINE STR0065 FWI18NLang("FINR130","STR0065",65)
+#DEFINE STR0066 FWI18NLang("FINR130","STR0066",66)
+#DEFINE STR0067 FWI18NLang("FINR130","STR0067",67)
+#DEFINE STR0068 FWI18NLang("FINR130","STR0068",68)
+#DEFINE STR0069 FWI18NLang("FINR130","STR0069",69)
+#DEFINE STR0070 FWI18NLang("FINR130","STR0070",70)
+#DEFINE STR0071 FWI18NLang("FINR130","STR0071",71)
+#DEFINE STR0072 FWI18NLang("FINR130","STR0072",72)
+#DEFINE STR0073 FWI18NLang("FINR130","STR0073",73)
+#DEFINE STR0074 FWI18NLang("FINR130","STR0074",74)
+#DEFINE STR0075 FWI18NLang("FINR130","STR0075",75)
+#DEFINE STR0076 FWI18NLang("FINR130","STR0076",76)
+#DEFINE STR0077 FWI18NLang("FINR130","STR0077",77)
+#DEFINE STR0078 FWI18NLang("FINR130","STR0078",78)
+#DEFINE STR0079 FWI18NLang("FINR130","STR0079",79)
+#DEFINE STR0080 FWI18NLang("FINR130","STR0080",80)
+#DEFINE STR0081 FWI18NLang("FINR130","STR0081",81)
+#DEFINE STR0082 FWI18NLang("FINR130","STR0082",82)
+#DEFINE STR0083 FWI18NLang("FINR130","STR0083",83)
+#DEFINE STR0084 FWI18NLang("FINR130","STR0084",84)
+#DEFINE STR0085 FWI18NLang("FINR130","STR0085",85)
+#DEFINE STR0086 FWI18NLang("FINR130","STR0086",86)
+#DEFINE STR0087 FWI18NLang("FINR130","STR0087",87)
+#DEFINE STR0088 FWI18NLang("FINR130","STR0088",88)
+#DEFINE STR0089 FWI18NLang("FINR130","STR0089",89)
+#DEFINE STR0090 FWI18NLang("FINR130","STR0090",90)
+#DEFINE STR0091 FWI18NLang("FINR130","STR0091",91)
+#DEFINE STR0092 FWI18NLang("FINR130","STR0092",92)
